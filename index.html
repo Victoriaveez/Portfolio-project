@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #bb70528c;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #8100cc05;
+      color: black;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #9500a3c4;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: black;
+      text-decoration: none;
+      margin: 8px;
+    }
+
+    section {
+      padding: 20px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 35px;
+    }
+
+    h2 {
+      color: black;
+    }
+
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #9b1ca7bd;
+      color: white;
+      padding: 8px 12px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    form button {
+      background-color: #b915bec9;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Victoria Nyokabi Nyoike</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#interests">Interests</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Victoria, a banking professional turned tech enthusiast with 8 years in financial services, now building technical skills to bridge finance and technology. I enjoy learning how technology works and building solutions to help people</p>
+  </section>
+
+  <section id="skills">
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>Java</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+    </ul>
+  </section>
+  
+  <section id="education">
+    <h2>Education</h2>
+    <p>Bachelor in business management - Mt. Kenya university - ongoing</p>
+    <p>Diploma in sales and marketing - NIBS college</p>
+    <p>Certificate in Software development - Project Power Learn</p>
+    <a class="button" href="Vicky CV/VickyCV.pdf" download>Download My CV</a>
+  </section>
+
+  <section id="interests">
+    <h2>What Excites Me About Tech</h2>
+    <p>I love how technology allows people to create useful tools. I'm especially excited about web design, accessibility, and how apps can solve real-world problems.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li>
+        <strong>My First Website</strong><br>
+        A personal homepage using only HTML and CSS. <br>
+        <a href="https://github.com/PLP-WebTechnologies/july-2025-introduction-to-html-5-Victoriaveez" target="_blank">View Project</a>
+      </li>
+      <li>
+        <strong>Leap year calculator</strong><br>
+        A basic leap year calculator using Python <br>
+        <a href="https://github.com/Victoriaveez/SEE" target="_blank">View Project</a>
+      </li>
+      
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Want to work together? Reach out!</p>
+    <form action="mailto:vickynyoike@gmail.com" method="POST" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="name" required>
+
+      <label>Your Email:</label>
+      <input type="email" name="email" required>
+
+      <label>Your Message:</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Victoria Nyokabi 
+  </footer>
+
+</body>
+</html>
